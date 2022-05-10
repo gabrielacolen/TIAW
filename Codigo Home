@@ -1,0 +1,87 @@
+                <nav class="nav nav-pills flex-column flex-sm-row">
+                    <a class="flex-sm-fill text-sm-center nav-link active" href="#">Home</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#">Login</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#">Cadastro</a>
+                    <a class="flex-sm-fill text-sm-center nav-link" href="#">Conteúdo</a>
+                  </nav>
+                </div>
+    
+            </div>
+        </div>
+    </header>
+    <main class="container main">
+        <div class="row main">
+            <div">
+                <img src="img/gif principal.gif" class="gif_main">
+                <img src="img/escrito.jpg" class="escrito_main">
+            </div>
+        </div>
+        <div class="row cards">
+            <div class="card mb-3" id="card1" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/engasgo.jpg"  class="img_engasgo">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Conteúdo Gratuito</h5>
+                      <p class="card-text">Aprenda como e quando fazer a manobra de Heimlich e como lidar com crianças e idosos nessa situação</p>
+                      <button type="button" class="btn btn-dark">Acessar conteúdo</button>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card mb-3" id="card2" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="img/queimadura.jpg"  class="img_queimadura">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Conteúdo Gratuito</h5>
+                      <p class="card-text">Você sabe quais são as melhores práticas e quando deve ligar para o SAMU quando um idoso se queima?</p>
+                      <button type="button" class="btn btn-dark">Acessar conteúdo</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+
+
+      <div class="row card_planos">
+  <div class="col-sm-6">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">Plano Individual</h5>
+        <p class="card-text">Disponível para aqueles que tem contato com idosos/crianças no ambiente de trabalho ou em casa e desejam aprender mais sobre primeiros socorros. Essencial para pessoas que praticam trabalho voluntário, professores, cuidadores e nunca receberam informações necessárias sobre primeiros socorros. </p>
+        <img src="img/gif voluntario.gif" width="50%" class="gif_plano">
+        <a id="botao_cadastro" href="#" class="btn btn-dark">Fazer cadastro</a>
+        
+      </div>
+    </div>
+  </div>
+  <div class="col-sm-6">
+    <div class="card plano2">
+      <div class="card-body">
+        <h5 class="card-title">Plano Empresarial</h5>
+        <p class="card-text">Para empresas que desejam oferecer cursos profissionalizantes para seus funcionários, exceto os da área da saúde. Importante para ambientes vulneráveis a acidentes com crianças/idosos, sempre é importante ter os trabalhadores preparados caso aconteça algo.</p>
+        <img src="img/gif cuidador.gif" width="50%" class="gif_plano">
+        <a id="botao_cadastro" href="#" class="btn btn-dark">Fazer cadastro</a>
+
+        
+      </div>
+    </div>
+  </div>
+</div>
+      <footer class="container footer">
+    <div class="row">
+        <div class="col-12 footer_area">
+           Portal Primeiros Socorros - Todos os direitos reservados - 2022
+        </div>
+    </div>
+</footer>
+      
+</body>
+
+</html>
