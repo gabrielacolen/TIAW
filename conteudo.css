@@ -49,7 +49,7 @@ p{
 
 @media screen and (max-width:700px){
 .card-body{
-    margin-left: 10px;
+    margin-left: 0px;
 }
 .header{
     margin-bottom: 10px;
