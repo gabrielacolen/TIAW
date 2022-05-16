@@ -66,6 +66,16 @@
     width: 125%;
 }
 
+.footer{
+    margin-top:20px;
+    background: rgb(0, 0, 0) ; 
+    color: white;
+}
+
+.footer_area{
+    padding: 20px;
+    text-align: center;
+}
 
 
 
