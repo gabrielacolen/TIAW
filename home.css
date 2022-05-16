@@ -40,8 +40,9 @@
     margin-left: 10px;
 }
 
-.img_engasgo, .img_queimadura{
-    width:190px;
+#img_engasgo{
+    width:"30px";
+    
 }
 
 #card2{
@@ -54,30 +55,15 @@
 .planos{
     padding: 10px;
     margin-top: 60px;
-    border: none;
-    display: inline;
-}
- .gif_plano{
-   padding:10px;
-   margin-left: 10px;
- }
-
-.card_planos{
-  margin: 10px;
+    width: 90%;
 }
 
-/* FOOTER */
-
-/*footer*/
-.footer{
-    margin-top:20px;
-    background: rgb(0, 0, 0);
-    color: white;
+#img_queimadura {
+    width: 125%;
 }
 
-.footer_area{
-    padding: 20px;
-    text-align: center;
+.img_engasgo{
+    width: 125%;
 }
 
 
@@ -90,9 +76,25 @@
     .escrito_main{
         width: 97%;
     }
-    .img_engasgo, .img_queimadura{
-        width: 0px;
+    .img_engasgo{
+        display: none;
+    }
+    #img_queimadura{
+        display: none;
+    }
+
+
+    #btn-plano #btn-plano1 #btn-plano2{
+        display: block;
+       margin: auto;
+    }
+
+    #subtitulo-plano{
+        text-align: center;
     }
     
+    #subtitulo-alinhado{
+        text-align: center;
+    }
     
 }
