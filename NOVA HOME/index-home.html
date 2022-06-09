@@ -69,11 +69,6 @@
               </div>
         </div>
 
-        
-  
-
-        
-
       <div class="noticias">
         <h1>Notícias</h1>
         <div id="lista-produtos"></div>
@@ -115,14 +110,11 @@
           <script>
             var prods = '';
             for (i=0; i < db.dados.length; i++) {
-                prods += `<p class="produto-item"><b>${i+1}.  ${ db.dados[i].titulo }</b> <br> ${db.dados[i].corpo}</p>`;
+                prods += `<p class="produto-item"><b>${i+1}.  ${ db.dados[i].titulo } - ${db.dados[i].datas}</b> <br> ${db.dados[i].corpo} </p>`;
             }
             document.getElementById('lista-produtos').innerHTML = prods;
-
-            
         
         </script>
 </body>
 
 </html>
-  
